@@ -1,0 +1,13 @@
+<form action='/login' method='POST'>
+  <label>
+    <span>Email</span>
+    <div class="input"><input type='email' name='email' placeholder='Email'></div>
+  </label>
+  
+  <label>
+    <span>Password</span>
+    <div class="input"><input type='password' name='password' placeholder='Password'></div>
+  </label>
+  
+  <input type='submit' value='Log In'><a href="/raptor/forgotten">Reset Password</a>
+</form>

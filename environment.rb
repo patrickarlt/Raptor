@@ -25,7 +25,7 @@ class Controller < Sinatra::Base
   set :public_folder,   'public'
   set :erubis,          :escape_html => true
   set :sessions,        true
-  set :session_secret,  Settings.session_secret
+  set :session_secret,  self.Settings.session_secret
 
   # Development Specific Configuration
   configure :development do
@@ -58,9 +58,10 @@ class Controller < Sinatra::Base
 
   # Initialize Redis and Resque
   configure do
-    redis_config = URI.parse(YAML.load_file(File.join(settings.root,"config","redis.yaml"))[ENV['RACK_ENV']]['redis_url'])
-    REDIS = Redis.new(host: redis_config.host, port: redis_config.port, password: redis_config.password)
-    Resque.redis = REDIS
+    redis_config = YAML.load_file(File.join(settings.root,"config","redis.yaml"))[ENV['RACK_ENV']]
+    redis_uri = URI.parse(redis_config['redis_url'])
+    Raptor::Redis = Redis.new(host: redis_uri.host, port: redis_uri.port, password: redis_uri.password)
+    Resque.redis = Raptor::Redis
   end
 
 end
@@ -68,10 +69,9 @@ end
 # Require Controllers
 require_relative './controller.rb'
 Dir.glob(['controllers'].map! {|d| File.join d, '*.rb'}).each do |f| 
-  require_relative f
-  
-  # Ugly fix to include the asset code until the inheritance bug is fixed.
-  (Controller.controller_names << 'controller').each do |controller|
-    eval "#{controller.capitalize}.send(:include, Assets)"
-  end
+  require_relative f  
+end
+# Ugly fix to include the asset code until the inheritance bug is fixed.
+(Controller.controller_names << 'controller').each do |controller|
+  eval "#{controller.capitalize}.send(:include, Assets)"
 end

@@ -1,0 +1,296 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"redi",
+				"redis_config"
+			],
+			[
+				"req",
+				"require"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 336.0,
+		"selected_items":
+		[
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"todo",
+				"Show TODOs: Open files only"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"to",
+				"Show TODOs: Open files only"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"show",
+				"Show TODOs: Open files only"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"linter",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 474.0
+	},
+	"console":
+	{
+		"height": 246.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/init.js",
+		"/Users/patrickarlt/Projects/personal/raptor/public/templates/posts/list.html",
+		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/views/posts/list.js",
+		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/router.js",
+		"/Users/patrickarlt/Projects/personal/raptor/controller.rb",
+		"/Users/patrickarlt/Projects/personal/raptor/models/user.rb",
+		"/Users/patrickarlt/Projects/personal/raptor/Gemfile",
+		"/Users/patrickarlt/Projects/personal/raptor/environment.rb",
+		"/Users/patrickarlt/Projects/personal/raptor/config/redis.yaml",
+		"/Users/patrickarlt/Projects/personal/raptor/config/mongoid.yaml",
+		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/views/posts/single.js",
+		"/Users/patrickarlt/Projects/personal/raptor/assets/js/libs/jquery-serializeObject.js/jquery. serializeObject.js",
+		"/Users/patrickarlt/Projects/personal/raptor/public/templates/posts/single.html",
+		"/Users/patrickarlt/Projects/personal/raptor/lib/assets.rb",
+		"/Users/patrickarlt/Projects/personal/raptor/assets/js/extensions/underscore.js",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/patrickarlt/Projects/personal/raptor/models/post.rb",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/Color Scheme - carlcalderon/Calydon/Calydon.tmTheme",
+		"/Users/patrickarlt/Projects/personal/raptor/public/templates/hello.html",
+		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/collections/posts.js",
+		"/Volumes/Storage/May 12th 2012/Users/Patrick/Library/Application Support/Sublime Text 2/Packages/User/erb-snippet.sublime-snippet",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/ZenCoding/README.creole",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/ZenCoding/zencoding/html_matcher.py",
+		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/views/posts/edit.js",
+		"/Users/patrickarlt/Projects/titanium/Geoloqi-iPhone-Titanium-Module/IOS/TiGeoloqiiOSProxy.m",
+		"/Users/patrickarlt/Projects/titanium/Geoloqi-iPhone-Titanium-Module/IOS/TiGeoloqiLQSessionProxy.m",
+		"/Users/patrickarlt/Projects/titanium/Geoloqi-iPhone-Titanium-Module/IOS/TiGeoloqiLQSessionProxy.h",
+		"/Users/patrickarlt/.bash_profile",
+		"/Users/patrickarlt/.bashrc",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/README.markdown",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/models/geoloqi/cache.rb",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/geoloqi-js/README.markdown",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/geoloqi-js/source/geoloqi-client.js",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/geoloqi-js/source/easyXDM/easyXDM.debug.js",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/js/libs/socket.io.js",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/geoloqi-js/source/geoloqi-maps.js",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/views/layers/_form.erubis",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/geoloqi-js/geoloqi.js",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/js/geoloqi-site.js",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/views/email-templates/layout.erubis",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/views/email-templates/downgrade.erubis",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/geoloqi-js/source/geoloqi-sockets.js",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/css/home.scss",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/css/home.min.css",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/README.rst",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/Terminal/Base File.sublime-settings",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/Gemfile",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/views/email-templates/getting-started.erubis",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/public/js/home-page.js",
+		"/Users/patrickarlt/Projects/geoloqi/geoloqi-website/.rvmrc",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/User/Default (Linux).sublime-keymap",
+		"/Users/patrickarlt/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"redis_config",
+			"transparent",
+			"trans",
+			"word",
+			"class",
+			"//",
+			"?+",
+			":+",
+			": ",
+			":",
+			"todo",
+			"@TODO",
+			"borderspacing"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.529654627822,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"packagecontrol",
+				"Package Control.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true
+}

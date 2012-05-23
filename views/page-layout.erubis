@@ -23,8 +23,5 @@
     <%= styled_flash %>
     <%= yield %>
   </body>
-  
-  <%= js :admin_libs %>
-  <%= js :admin_main %>
-  
+
 </html>

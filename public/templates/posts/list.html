@@ -1,0 +1,15 @@
+<section id="post-list">
+  <h1>Posts</h1>
+  <a href="/admin/posts/new">New Post</a>
+  <ol>
+  <% posts.each(function(post){ %>
+    <li>
+    	<h3>
+    		<a href="/admin/posts/edit/<%= post.get("slug") %>"><%= post.get("title") %></a>
+    	</h3>
+    	<a href="" class="delete">delete</a>
+      <%- post.html-content %>
+    </li> 
+  <% }) %>
+  </ol>
+</section>

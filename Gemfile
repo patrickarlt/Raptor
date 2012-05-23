@@ -3,33 +3,44 @@ gem "sinatra",              "1.3.2",        :require => "sinatra/base"
 gem "sinatra-flash",        "0.3.0",        :require => "sinatra/flash"
 gem "sinatra-support",      "1.2.0",        :require => "sinatra/support"
 gem "sinatra-assetpack",                    :require => "sinatra/assetpack", :git => "git://github.com/rstacruz/sinatra-assetpack.git"
-gem "yui-compressor",                       :require => "yui/compressor"
-gem "sass", "~> 3.1.12"
-gem "rb-fsevent",           "~> 0.4.3.1"
-
 
 gem "erubis",               "2.7.0"
 gem "rake",                                 :require => nil
 gem "hashie",               "1.2.0"
 gem "json"
 
-gem "redis"
+gem "redis",								"~> 2.2.2"
 gem "resque",               "~> 1.19.0"
 gem "resque-scheduler",     "~> 2.0.0.e"
+
 gem "foreman",              "~> 0.41.0"
-gem "mongoid",              "~> 2.3"
-gem "bson_ext",             "~> 1.5.2"
+
+gem "mongoid",              "~> 2.4.8"
 gem "mongoid-tree",                       :require => "mongoid/tree"
-gem "omniauth"    
+gem 'mongoid_slug',                       :require => "mongoid/slug"
+gem "mongoid-pagination",   "~> 0.1.0",   :require => "mongoid/pagination"
+gem "mongoid_search",       :git => "https://github.com/mauriciozaffari/mongoid_search.git"
+gem "bson_ext",             "~> 1.5.2"
 gem "bcrypt-ruby",                        :require => "bcrypt"
+
+gem "redcarpet",            "~> 2.1.1"
+gem "coderay",              "~> 1.0.6"
+
+
 gem 'puma'
 
-gem "carrierwave",          "~> 0.5.8"
+gem "carrierwave", :git => "git://github.com/jnicklas/carrierwave.git"
 gem "carrierwave-mongoid",                :require => "carrierwave/mongoid"
+gem "mini_magick",          "~> 3.4"
+
+gem "yui-compressor",                       :require => "yui/compressor"
+gem "sass", "~> 3.1.18"
+gem "rb-fsevent",           "~> 0.9.1"
+
 
 group :development do
   gem "shotgun",                          :require => nil
-  gem "ruby-debug19",                     :require => "ruby-debug"
+  #gem "ruby-debug19",                     :require => "ruby-debug"
 end
 
 group :test do

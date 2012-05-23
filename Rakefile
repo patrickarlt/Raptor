@@ -11,3 +11,8 @@ end
 
 desc "Alias resque:work to jobs:work"
 task "jobs:work" => "resque:work"
+
+namespace :raptor do
+  
+end
+
