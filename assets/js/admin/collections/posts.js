@@ -1,4 +1,4 @@
-Raptor.Collections.Posts = (function(){
+Raptor.namespace("Raptor.Collections.Posts", function(){
 
   posts = Backbone.Collection.extend({
     model: Raptor.Models.Post,
@@ -28,4 +28,4 @@ Raptor.Collections.Posts = (function(){
 
   return new posts();
 
-})();
+});

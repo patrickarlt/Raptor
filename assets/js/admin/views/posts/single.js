@@ -1,4 +1,4 @@
-Raptor.Views.Posts.Single = (function(){
+Raptor.namespace("Raptor.Views.Posts.Single", function(){
 	
 	edit = Backbone.View.extend({
 		el: "body",
@@ -20,4 +20,4 @@ Raptor.Views.Posts.Single = (function(){
 	});
 	
 	return new edit();
-})();
+});

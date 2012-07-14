@@ -15,7 +15,7 @@ gem "resque-scheduler",     "~> 2.0.0.e"
 
 gem "foreman",              "~> 0.41.0"
 
-gem "mongoid",              "~> 2.4.8"
+gem "mongoid",							"~> 3.0.0.rc"
 gem "mongoid-tree",                       :require => "mongoid/tree"
 gem 'mongoid_slug',                       :require => "mongoid/slug"
 gem "mongoid-pagination",   "~> 0.1.0",   :require => "mongoid/pagination"

@@ -108,12 +108,12 @@
 	},
 	"file_history":
 	[
+		"/Users/patrickarlt/Projects/personal/raptor/models/user.rb",
 		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/init.js",
 		"/Users/patrickarlt/Projects/personal/raptor/public/templates/posts/list.html",
 		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/views/posts/list.js",
 		"/Users/patrickarlt/Projects/personal/raptor/assets/js/admin/router.js",
 		"/Users/patrickarlt/Projects/personal/raptor/controller.rb",
-		"/Users/patrickarlt/Projects/personal/raptor/models/user.rb",
 		"/Users/patrickarlt/Projects/personal/raptor/Gemfile",
 		"/Users/patrickarlt/Projects/personal/raptor/environment.rb",
 		"/Users/patrickarlt/Projects/personal/raptor/config/redis.yaml",

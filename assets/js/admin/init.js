@@ -1,3 +1,36 @@
+var Raptor = Raptor || {};
+
+// Namespaceing Helper
+// http://addyosmani.com/blog/essential-js-namespacing/
+Raptor.namespace = function(ns_string, module) {
+  var parts = ns_string.split('.'),
+      parent = Raptor,
+      pl, i;
+  if (parts[0] == "Raptor") {
+    parts = parts.slice(1);
+  }
+  pl = parts.length;
+  for (i = 0; i < pl; i++) {
+    if(i == pl-1 && module) {
+      parent[parts[i]] = module();
+    } else if (typeof parent[parts[i]] == 'undefined') {
+      parent[parts[i]] = {};
+    }
+    parent = parent[parts[i]];
+  }
+  return parent;
+};
+
+// console.log Wrapper
+// http://paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
+Raptor.log = function(){
+  Raptor.logs = Raptor.logs || [];   // store logs to an array for reference
+  Raptor.logs.push(arguments);
+  if(window.console){
+    console.log( Array.prototype.slice.call(arguments) );
+  }
+};
+
 // Start the Router
 Raptor.init = function(){
   Raptor.Router = new Raptor.Routers.Main();

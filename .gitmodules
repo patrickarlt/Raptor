@@ -1,0 +1,3 @@
+[submodule "assets/formula"]
+	path = assets/formula
+	url = git@github.com:patrickarlt/Formula-Framework.git
