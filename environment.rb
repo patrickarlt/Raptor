@@ -37,7 +37,6 @@ class Controller < Sinatra::Base
   configure :test do
     Bundler.require :test
   end
-
   # Production Specific Configuration
   configure :production do
     Bundler.require :production

@@ -1,4 +1,3 @@
-web:        bundle exec rackup -s puma -p 9393 -E development
-worker:     bundle exec rake resque:work
+web:        bundle exec rackup -p $PORT -E production
+worker:			bundle exec rake resque:work QUEUE=*
 scheduler:  bundle exec rake resque:scheduler
-#resque:    bundle exec resque-web -p 8282

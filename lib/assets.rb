@@ -34,7 +34,7 @@ module Assets
       ]
       
       # Set Compressors
-      js_compression  :yui, :munge => true
+      js_compression  :jsmin
       css_compression :sass
 
       # Prebuild assets in prodctions

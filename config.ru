@@ -1,7 +1,13 @@
 require './environment.rb'
+require 'resque/server'
 
 map '/' do
   run Controller
+end
+
+
+map '/resque' do	
+	run Resque::Server.new
 end
 
 Controller.controller_names.each do |controller_name|

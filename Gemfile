@@ -4,8 +4,13 @@ gem "sinatra-flash",        "0.3.0",        :require => "sinatra/flash"
 gem "sinatra-support",      "1.2.0",        :require => "sinatra/support"
 gem "sinatra-assetpack",                    :require => "sinatra/assetpack", :git => "git://github.com/rstacruz/sinatra-assetpack.git"
 
+gem "sass", 								"3.2.0.alpha.237"
+gem "compass", 							"~> 0.12.1"
+gem "susy", 								"~> 1.0.rc.0"
+gem "compass-normalize-plugin", "~> 0.3.0"
+gem "rb-fsevent",						"~> 0.9.1"
+>>>>>>> 43e1cd449eb7b740cea596215a148bd1c8fbc62c
 gem "erubis",               "2.7.0"
-gem "rake",                                 :require => nil
 gem "hashie",               "1.2.0"
 gem "json"
 
@@ -30,6 +35,7 @@ gem "coderay",              "~> 1.0.6"
 gem 'puma'
 
 gem "carrierwave", :git => "git://github.com/jnicklas/carrierwave.git"
+
 gem "carrierwave-mongoid",                :require => "carrierwave/mongoid"
 gem "mini_magick",          "~> 3.4"
 
@@ -40,7 +46,8 @@ gem "rb-fsevent",           "~> 0.9.1"
 
 group :development do
   gem "shotgun",                          :require => nil
-  #gem "ruby-debug19",                     :require => "ruby-debug"
+  gem "pry"
+  gem "pry-nav"
 end
 
 group :test do

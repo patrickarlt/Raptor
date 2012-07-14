@@ -35,9 +35,18 @@ class Controller < Sinatra::Base
     erb :index
   end
 
+<<<<<<< HEAD
   get "/admin/*" do
     require_login
     title "Admin"
+=======
+  # Put Routes Here
+  get "/" do
+    title "Home Page"
+    description "An application framework with Sinatra, MongoID, and Redis"
+    @message = "Hello visitor #" + Counter.increment.to_s + " the CRON has been run " + Counter.cron.to_s || "0" + " times"
+    Resque.enqueue(Counter)
+>>>>>>> 43e1cd449eb7b740cea596215a148bd1c8fbc62c
     erb :index
   end
 
